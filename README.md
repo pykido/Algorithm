@@ -1,2 +1,3 @@
-# PS_Baekjoon
-백준에서 푼 문제들 코드 및 풀이 
+# 알고리즘은 감튀다
+● 백준 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=animoto1)](https://solved.ac/animoto1/)
