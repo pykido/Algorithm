@@ -1,0 +1,28 @@
+1. 파이썬에서 전역변수를 선언해줘야하는 경우..?
+(1)
+total = 5
+
+def add_to_n(n):
+  n = n + total
+  return n
+
+result = add_to_n(3)
+print(result)
+
+(2)
+total = 5
+
+def add_to_total(n):
+  global total
+  total = total + n
+  return total
+
+result = add_to_total(3)
+print(result)
+
+  1번 코드같은 경우 add_to_n 함수에서 global total과 같은 선언이 없어도 에러가 나지 않는 반면에 2번 코드의 add_to_total 함수에서 global total이라는 선언이 없으면 
+에러가 나는 이유가 1번 코드같은 경우는 전역변수인 total의 값을 바꾸지 않고 참고하여 더해주는 과정만 하는 반면에 2번 코드의 total은 함수에서 전역변수인 total의 값을 
+바꾸려고 했기에 에러가 났다. 
+  참고자료 : https://stackoverflow.com/questions/423379/using-global-variables-in-a-function
+  
+2. 백트래킹
