@@ -6,3 +6,5 @@
 ### [(1) 재귀 함수로 구현한 이진 탐색 소스코드 ](https://github.com/pykido/Algorithm/blob/main/About/binary_search/%EC%9E%AC%EA%B7%80%20%ED%95%A8%EC%88%98%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%9C%20%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.py)
 
 ### [(2) 반복문으로 구현한 이진 탐색 소스코드 ](https://github.com/pykido/Algorithm/blob/main/About/binary_search/%EB%B0%98%EB%B3%B5%EB%AC%B8%EC%9C%BC%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%9C%20%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.py)
+
+## 4. 파라메트릭 서치 : 최적화 문제(주어진 조건을 만족하는 특정값을 구하고자하는...)를 이진탐색을 반복하여 결정 짓는 결정 문제로 바꾸어 해결하는 문제 유형 
