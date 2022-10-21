@@ -4,6 +4,7 @@
 
 3. 이진 탐색의 틀을 항상 외우고 있는 것이 좋다.
 -> 크게 2가지 틀이 있다.
-(1) 재귀 함수로 구현한 이진 탐색 소스코드 
+### [(1) 재귀 함수로 구현한 이진 탐색 소스코드 ](https://github.com/pykido/Algorithm/blob/main/About/binary_search/%EC%9E%AC%EA%B7%80%20%ED%95%A8%EC%88%98%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%95%9C%20%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C.py)
+
 
 (2) 반복문으로 구현한 이진 탐색 소스코드 
