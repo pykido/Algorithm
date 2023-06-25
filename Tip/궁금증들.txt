@@ -26,3 +26,20 @@ print(result)
   참고자료 : https://stackoverflow.com/questions/423379/using-global-variables-in-a-function
   
 2. 백트래킹
+
+3. 빠르게 간편하게 입력 받기
+import sys # 더욱 빠르게 입력 가능
+
+# map함수를 통해 입력되는 값에 int 부여 가능
+# sys.stdin.readline().rstrip()이 input()보다 훨씬 빠르다. 그냥 외우자. 
+n, m = map(int, sys.stdin.readline().rstrip().split())
+
+# 리스트 안에 여러 값을 입력 받을 때
+# (1) 원래 난 이렇게 했었음
+num_lst1 = [0] * n
+for i in range(n) : 
+  num_lst1[i] = int(sys.stdin.readline().rstrip())
+# (3) 이게 더욱 간편하고 좋다.
+num_lst2 = [int(sys.stdin.readline().rstrip()) for _ in range(n)]
+
+
