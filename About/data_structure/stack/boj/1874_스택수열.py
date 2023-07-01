@@ -1,4 +1,4 @@
-# [전형적인 이분 탐색 문제] (pypy로 제출하였음)
+# [스택 문제] 
 
 import sys
 import copy
