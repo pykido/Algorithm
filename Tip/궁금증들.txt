@@ -43,3 +43,16 @@ for i in range(n) :
 num_lst2 = [int(sys.stdin.readline().rstrip()) for _ in range(n)]
 
 
+
+4. 얕은 복사와 깊은 복사 
+- mutable한 객체에 얕은 복사를 하면 서로 같은 메모리 주소값을 가르킨다. 
+- 반면 immutable한 객체에 얕은 복사를 하면 서로 다른 메모리 주소값을 가르킨다. 
+- 따라서 파이썬에서 깊은 복사를 하기 위해서는 다음의 과정을 거쳐야한다.
+import copy
+num_lst = [1,2,3]
+new_num_lst = copy.deepcopy(num_lst)
+
+
+
+
+
