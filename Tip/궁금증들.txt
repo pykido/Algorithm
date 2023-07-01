@@ -53,6 +53,10 @@ num_lst = [1,2,3]
 new_num_lst = copy.deepcopy(num_lst)
 
 
+5. 부분 주석
+window : ctrl + / 
+mac : command + / 
+
 
 
 
